@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.search {
+  z-index: 1;
+  position: fixed;
+  top: 5px;
+  left: 5px;
+}
+
+.search-field {
+  width: 320px;
+  padding: 5px;
+}
+
+.search-area {
+  font-size: 0.9em;
+  float: right;
+}
+
+.location-list {
+  padding: 0;
+  margin: 5px;
+  overflow: auto;
+}
+
+.search-input {
+  padding: 5px 10px;
+  font-size: 1em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+}
+
+.place {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  font-size: 1em;
+  color: white;
+  cursor: pointer;
+  -webkit-transition: background-color 500ms;
+  -moz-transition: background-color 500ms;
+  transition: background-color 500ms;
+  border-radius: 6px;
+  padding-top: 5px;
+}
+
+.place:hover {
+  color: black;
+  background-color: white;
+}
+
+.location-item {
+  padding: 10px;
+  background-color: #fff;
+  list-style-type: none;
+  text-align: center;
+  border: solid white 1px;
+}
+
+.location-item:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.search-area {
+  border-radius: 5px;
+  position: absolute;
+  max-height: 50%;
+  overflow: auto;
+  left: 0.5%;
+  top: 6%;
+  z-index: 2;
+  background-color: #2434ad;
+  opacity: 0.9;
+}
+
+.box {
+  cursor: pointer;
+  padding: 5px;
+}
+
+.box:hover {
+  background-color: #2434ad;
+  color: white;
+}
+
+.button {
+  text-align: center;
+  padding: 5px;
+  background-color: white;
+  border: 1px darkgrey solid;
+  cursor: pointer;
+  width: 334px;
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "name": "The Claddagh",
+    "type": "Irish pub",
+    "latitude": 46.6237467,
+    "longitude": 14.3062055
+  },
+  {
+    "name": "Im Landhaushof",
+    "type": "Restaurant",
+    "latitude": 46.6250222,
+    "longitude": 14.3058934
+  },
+  {
+    "name": "Osteria Veneta",
+    "type": "Restaurant",
+    "latitude": 46.6244455,
+    "longitude": 14.3123119
+  },
+  {
+    "name": "Zum Augustin",
+    "type": "Restaurant",
+    "latitude": 46.6263346,
+    "longitude": 14.3066561
+  },
+  {
+    "name": "7. Himmel",
+    "type": "Restaurant",
+    "latitude": 46.6258955,
+    "longitude": 14.3098865
+  },
+  {
+    "name": "Molly Malone",
+    "type": "Irish pub",
+    "latitude": 46.6262545,
+    "longitude": 14.3059004
+  }
+]
